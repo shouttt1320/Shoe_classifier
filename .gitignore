@@ -1,0 +1,20 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch checkpoints / Large Model Weights (>50MB)
+models/*.pth
+
+# Dataset (수천 장의 모든 이미지 및 데이터셋 폴더 완전 제외)
+dataset/
+
+# OS / Editor settings
+.DS_Store
+.vscode/
+.idea/
+*.log
+
+# Scratch / Temp directories
+scratch/
+tmp/
